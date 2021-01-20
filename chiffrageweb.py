@@ -1,6 +1,5 @@
 import streamlit as st
 import mysql.connector as MC
-import numpy as np
 import pandas as pd
 import requests
 import json
