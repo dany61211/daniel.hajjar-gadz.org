@@ -1,6 +1,6 @@
-streamlit
-mysql.connector
-pandas
-requests
-json
-csv
+import streamlit
+import mysql.connector
+import pandas
+import requests
+import json
+import csv
