@@ -73,6 +73,8 @@ def chiffrage():
     # connexion à la db mysql gcloud
     connexion = MC.connect(host="34.76.41.24", user="root", password="Dany61211", database="chiffragedb", port=3306)
     curseur = connexion.cursor()
+    
+    st.info('database connected')
 
     # Menu déroulant exutoires
     curseur.execute("SELECT name FROM SuezSite ORDER BY name")
