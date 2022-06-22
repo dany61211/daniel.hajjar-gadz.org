@@ -1,7 +1,7 @@
 pandas==0.23.4
 requests==2.25.0
 streamlit==0.74.1
-numpy==1.19.5
+numpy==1.22.0
 # mysql_connector_repackaged==0.3.1
 mysql-connector-python==8.0.22
 
